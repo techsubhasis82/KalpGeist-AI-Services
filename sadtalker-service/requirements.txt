@@ -1,0 +1,30 @@
+# SadTalker Python 3.8 Compatible Requirements - FINAL VERSION
+# Based on official SadTalker compatibility research
+
+# ===== RUNPOD INTEGRATION =====
+runpod==1.7.12
+
+# ===== PYTHON 3.8 COMPATIBLE CORE PACKAGES =====
+requests==2.31.0
+Pillow==10.0.1
+opencv-python==4.8.1.78
+numpy==1.24.3
+scipy==1.10.1
+imageio==2.31.5
+imageio-ffmpeg==0.4.9
+ffmpeg-python==0.2.0
+
+# ===== AUDIO PROCESSING (Python 3.8 Compatible) =====
+librosa==0.10.1
+resampy==0.4.2
+pydub==0.25.1
+
+# ===== UTILITIES =====
+tqdm==4.66.1
+gdown==4.7.1
+psutil==5.9.6
+pyyaml==6.0.1
+scikit-image==0.19.3
+joblib==1.2.0
+
+# Note: Official SadTalker requirements will be installed from their requirements.txt
